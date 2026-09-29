@@ -4,8 +4,8 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "folio-ai"
-version = "0.1.0"
-description = "A powerful AI agent framework with 50+ MCP tools, RAG pipeline, and multi-model support."
+version = "0.1.1"
+description = "A powerful AI agent framework with 40+ MCP tools, RAG pipeline, and multi-model support."
 readme = "README.md"
 license = { file = "LICENSE" }
 
@@ -64,4 +64,4 @@ folio = "main:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["folio*"]
+include = ["folio*", "task*"]
